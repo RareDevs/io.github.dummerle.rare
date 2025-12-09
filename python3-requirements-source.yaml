@@ -1,4 +1,4 @@
-# Generated with flatpak-pip-generator -r requirements-source.in --yaml
+# Generated with flatpak-pip-generator -r requirements-source.in --yaml -o python3-requirements-source
 build-commands: []
 buildsystem: simple
 modules:
@@ -26,16 +26,16 @@ modules:
         sha256: 771a87f49d9defaf64091e6e6fe9c18d4833f140bd19464795bc32d966ca37ea
       - type: git
         url: https://github.com/RareDevs/legendary
-        commit: 4074375b789a4c2c87f72307bc9581900e34fa50
-      - &id008
+        commit: rare-1.12.0
+      - &id007
         type: file
         url: https://files.pythonhosted.org/packages/1e/db/4254e3eabe8020b458f1a747140d32277ec7a271daf1d235b70dc0b4e6e3/requests-2.32.5-py3-none-any.whl
         sha256: 2462f94637a34fd532264295e186976db0f5d453d1cdd31473c85a6a161affb6
-      - &id010
+      - &id009
         type: file
         url: https://files.pythonhosted.org/packages/91/23/7c1096731c15c83826cb0dd42078b561a838aed44c36f370aeb815168106/requests_futures-1.0.2-py2.py3-none-any.whl
         sha256: a3534af7c2bf670cd7aa730716e9e7d4386497554f87792be7514063b8912897
-      - &id009
+      - &id008
         type: file
         url: https://files.pythonhosted.org/packages/a7/c2/fe1e52489ae3122415c51f387e221dd0773709bad6c6cdaa599e8a2c5185/urllib3-2.5.0-py3-none-any.whl
         sha256: e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc
@@ -131,10 +131,6 @@ modules:
       - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
         --prefix=${FLATPAK_DEST} "QtAwesome==1.4.0" --no-build-isolation
     sources:
-      - &id007
-        type: file
-        url: https://files.pythonhosted.org/packages/69/76/37c0ccd5ab968a6a438f9c623aeecc84c202ab2fabc6a8fd927580c15b5a/QtPy-2.4.3-py3-none-any.whl
-        sha256: 72095afe13673e017946cc258b8d5da43314197b741ed2890e563cf384b51aa1
       - *id005
       - type: file
         url: https://files.pythonhosted.org/packages/a5/ee/6e6c6715129c929af2d95ddb2e9decf54c1beffe58f336911197aacc0448/qtawesome-1.4.0-py3-none-any.whl
@@ -145,7 +141,6 @@ modules:
       - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
         --prefix=${FLATPAK_DEST} "QtPy==2.4.3" --no-build-isolation
     sources:
-      - *id007
       - *id005
   - name: python3-requests
     buildsystem: simple
@@ -156,8 +151,8 @@ modules:
       - *id001
       - *id002
       - *id004
+      - *id007
       - *id008
-      - *id009
   - name: python3-requests-futures
     buildsystem: simple
     build-commands:
@@ -167,9 +162,9 @@ modules:
       - *id001
       - *id002
       - *id004
-      - *id008
-      - *id010
+      - *id007
       - *id009
+      - *id008
   - name: python3-setuptools-scm
     buildsystem: simple
     build-commands:
@@ -186,5 +181,5 @@ modules:
       - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
         --prefix=${FLATPAK_DEST} "urllib3==2.5.0" --no-build-isolation
     sources:
-      - *id009
-name: python3-requirements-source.in
+      - *id008
+name: python3-requirements-source
