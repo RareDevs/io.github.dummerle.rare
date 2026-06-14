@@ -46,6 +46,12 @@
     <url type="contribute">https://github.com/RareDevs/Rare</url>
     <url type="vcs-browser">https://github.com/RareDevs/Rare</url>
     <releases>
+        <release version="1.12.0.178" date="2026-06-10">
+            <description>
+                <p>Cobia Cormorant (dev 178)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.12.0.178</url>
+        </release>
         <release version="1.12.0.155" date="2026-04-27">
             <description>
                 <p>Cobia Cormorant (dev 155)</p>

@@ -6,13 +6,13 @@ build-commands:
   --prefix=${FLATPAK_DEST} --no-build-isolation pycryptodomex orjson ruff uv-build
 sources:
 - type: file
-  url: https://files.pythonhosted.org/packages/42/3d/27d65b6d11e63f133781425f132807aef793ed25075fec686fc8e46dd528/orjson-3.11.8-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-  sha256: 97c8f5d3b62380b70c36ffacb2a356b7c6becec86099b177f73851ba095ef623
+  url: https://files.pythonhosted.org/packages/21/0f/c9ede0bf052f6b4051e64a7d4fa91b725cccf8321a6a786e86eb03519f00/orjson-3.11.9-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+  sha256: ffe02797b5e9f3a9d8292ddcd289b474ad13e81ad83cd1891a240811f1d2cb81
   only-arches:
   - aarch64
 - type: file
-  url: https://files.pythonhosted.org/packages/23/91/7e722f352ad67ca573cee44de2a58fb810d0f4eb4e33276c6a557979fd8a/orjson-3.11.8-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-  sha256: 705b895b781b3e395c067129d8551655642dfe9437273211d5404e87ac752b53
+  url: https://files.pythonhosted.org/packages/a1/08/dca0082dd2a194acb93e5457e73455388e2e2ca464a2672449a9ddbb679d/orjson-3.11.9-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  sha256: 4e39364e726a8fff737309aff059ff67d8a8c8d5b677be7bb49a8b3e84b7e218
   only-arches:
   - x86_64
 - type: file
@@ -26,22 +26,22 @@ sources:
   only-arches:
   - x86_64
 - type: file
-  url: https://files.pythonhosted.org/packages/a7/e5/5faab97c15bb75228d9f74637e775d26ac703cc2b4898564c01ab3637c02/ruff-0.14.11-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-  sha256: 53386375001773ae812b43205d6064dae49ff0968774e6befe16a994fc233caa
+  url: https://files.pythonhosted.org/packages/d8/5b/733371013fcf1ec339e477ece6ab42bfe10bdd9bba8ee88a9516aa56bfc0/ruff-0.15.17-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+  sha256: 6ba0c1e4f95bcb3869d0d30cbd5917071ef2e28665abfec970cdab0492c713ed
   only-arches:
   - aarch64
 - type: file
-  url: https://files.pythonhosted.org/packages/ae/93/f36d89fa021543187f98991609ce6e47e24f35f008dfe1af01379d248a41/ruff-0.14.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-  sha256: a35c9da08562f1598ded8470fcfef2afb5cf881996e6c0a502ceb61f4bc9c8a3
+  url: https://files.pythonhosted.org/packages/11/93/f10377bb04109ca0e8cbc483ff1982c54b6d418210041776f93e8cdc7fa9/ruff-0.15.17-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  sha256: ecfc3c7878fff94633ab0348524e093f9ce3243080416dd7d14f8ba400174719
   only-arches:
   - x86_64
 - type: file
-  url: https://files.pythonhosted.org/packages/e5/4f/c13118f8ff8d99a5cce194972f319f51158abb4f422843e7bc321c0bfca6/uv_build-0.11.7-py3-none-manylinux_2_28_aarch64.whl
-  sha256: 0a3543671e3a721190d94dcabb62200c2712f7ced84591930fd93c8d1b83fcec
+  url: https://files.pythonhosted.org/packages/11/50/2965ebbbb1f3e7883311ffc6b4491742607bf333c96eb59f1049835e592a/uv_build-0.11.21-py3-none-manylinux_2_28_aarch64.whl
+  sha256: c7f82951d650a3b3d98ba96bd9335ac2ddbc67d9124280f002a48399a637d666
   only-arches:
   - aarch64
 - type: file
-  url: https://files.pythonhosted.org/packages/65/7a/c286bf603f6b218a6820554c880a0431c3327d24701c8e2e1be779a3299d/uv_build-0.11.7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-  sha256: 584fc01726ef84536eed4fa173bab00c0b07ac8c72d62a6cd46a8bb72685c395
+  url: https://files.pythonhosted.org/packages/bd/87/57a9834b8b22ec768baa544ea2d515f013f2aaece917d7aab7c2ff43beaf/uv_build-0.11.21-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  sha256: bd1e941c3165da766bfca0e36bff37a4565daf108e11b431fdce7c9b736391f4
   only-arches:
   - x86_64
