@@ -15,5 +15,5 @@ requests-futures==1.0.2
 setuptools==82.0.1
 setuptools-scm==10.0.5
 urllib3==2.7.0
-vcs-versioning==1.1.1
+vcs-versioning==2.2.0
 vdf @ git+https://github.com/solsticegamestudios/vdf@f47c683c1330f0fcddec034fd49c26e41acd63f2
