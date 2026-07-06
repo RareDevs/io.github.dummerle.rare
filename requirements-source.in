@@ -1,7 +1,7 @@
 build==1.5.0
 certifi==2026.5.20
 charset-normalizer==3.4.7
-filelock==3.29.4
+filelock==3.29.5
 idna==3.18
 installer==1.0.1
 legendary-gl @ git+https://github.com/RareDevs/legendary@3f5a7b31c2f61fe6a63248cf7972c678c4684068
