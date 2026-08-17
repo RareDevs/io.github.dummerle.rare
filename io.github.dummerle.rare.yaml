@@ -10,7 +10,7 @@ build-options:
   env:
     BASEAPP_REMOVE_WEBENGINE: '1'
     BASEAPP_DISABLE_NUMPY: '1'
-    SETUPTOOLS_SCM_PRETEND_VERSION: '1.12.0.178'
+    SETUPTOOLS_SCM_PRETEND_VERSION: '1.12.0.221'
 command: rare
 finish-args:
   - --share=ipc
@@ -55,8 +55,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/RareDevs/Rare.git
-        tag: '1.12.0.178'
-        commit: '6a08bd2554d69db9e7e4414c2c1de90a251c168a'
+        tag: '1.12.0.221'
+        commit: '1165644f148f186fe673d4a519eec74d32eeb21d'
         disable-shallow-clone: true
     modules:
       - python3-requirements-binary.yaml

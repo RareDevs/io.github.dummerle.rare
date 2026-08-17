@@ -1,19 +1,19 @@
 build==1.5.0
-certifi==2026.5.20
-charset-normalizer==3.4.7
-filelock==3.29.4
+certifi==2026.7.22
+charset-normalizer==3.5.1
+filelock==3.32.3
 idna==3.18
 installer==1.0.1
-legendary-gl @ git+https://github.com/RareDevs/legendary@3f5a7b31c2f61fe6a63248cf7972c678c4684068
-packaging==26.2
-pypresence==4.6.1
+legendary-gl @ git+https://github.com/RareDevs/legendary@9d32abcdd873b9193b403dc98f3f272cfcc8e897
+packaging==26.3
+pypresence==4.6.2
 pyproject_hooks==1.2.0
 QtAwesome==1.4.2
 QtPy==2.4.3
 requests==2.34.2
 requests-futures==1.0.2
-setuptools==82.0.1
-setuptools-scm==10.0.5
+setuptools==84.0.0
+setuptools-scm==10.2.1
 urllib3==2.7.0
-vcs-versioning==1.1.1
+vcs-versioning==2.2.4
 vdf @ git+https://github.com/solsticegamestudios/vdf@f47c683c1330f0fcddec034fd49c26e41acd63f2
